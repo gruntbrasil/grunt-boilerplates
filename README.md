@@ -78,4 +78,4 @@ $ sudo npm install
 
 
 ## Contribua
-Caso este repositório tenha sido útil, fique a vontade para [contribuir]() ou deixar uma [sugestão]().
+Caso este repositório tenha sido útil, fique a vontade para [contribuir](https://github.com/gruntbrasil/grunt-boilerplates/pulls) ou deixar uma [sugestão](https://github.com/gruntbrasil/grunt-boilerplates/issues).
