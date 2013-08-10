@@ -1,0 +1,29 @@
+{
+  "name": "nome-projeto",
+  "version": "1.0.0",
+  "title": "Nome do Projeto",
+  "homepage": "www.nomedoprojeto.com.br",
+  "description": "Descrição do seu projeto.",
+  "author": {
+    "name": "Seu nome aqui",
+    "url": "http://www.seusiteaqui.com.br",
+    "email": "email[at]seudominio.com.br"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-uglify": "~0.2.1",
+    "grunt-contrib-watch": "~0.4.3",
+    "grunt-contrib-less": "~0.7.0",
+    "grunt-contrib-jshint": "~0.5.4",
+    "grunt-contrib-imagemin": "~0.1.4",
+    "grunt-contrib-concat": "~0.3.0",
+    "matchdep": "~0.1.2",
+    "grunt-ftp-deploy": "0.0.9",
+    "grunt-notify": "~0.2.7"
+  },
+  "engines": {
+    "node": ">=0.8.0",
+    "npm": ">=1.1.0"
+  }
+}
