@@ -1,0 +1,134 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Grunt Boilerplates by gruntbrasil</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/respond.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+      <div id="header">
+        <nav>
+          <li class="fork"><a href="https://github.com/gruntbrasil/grunt-boilerplates">View On GitHub</a></li>
+          <li class="downloads"><a href="https://github.com/gruntbrasil/grunt-boilerplates/zipball/master">ZIP</a></li>
+          <li class="downloads"><a href="https://github.com/gruntbrasil/grunt-boilerplates/tarball/master">TAR</a></li>
+          <li class="title">DOWNLOADS</li>
+        </nav>
+      </div><!-- end header -->
+
+    <div class="wrapper">
+
+      <section>
+        <div id="title">
+          <h1>Grunt Boilerplates</h1>
+          <p>Estrutura inicial para desenvolvimento de projetos com o Grunt.</p>
+          <hr>
+          <span class="credits left">Project maintained by <a href="https://github.com/gruntbrasil">gruntbrasil</a></span>
+          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
+        </div>
+
+        <h1>
+<a name="grunt-boilerplates" class="anchor" href="#grunt-boilerplates"><span class="octicon octicon-link"></span></a>Grunt Boilerplates</h1>
+
+<p>O <strong>Grunt Boilerplates</strong> foi criado para oferecer aos desenvolvedores uma forma prática para inciar um projeto com o Grunt.</p>
+
+<h2>
+<a name="iniciando-o-seu-projeto" class="anchor" href="#iniciando-o-seu-projeto"><span class="octicon octicon-link"></span></a>Iniciando o seu projeto</h2>
+
+<blockquote>
+<p>O Grunt é uma ferramenta para automação de tarefas, que roda no terminal/shell com comandos de linha. Com ele, é possível concatenar e minificar arquivos, validar scripts (linting), otimizar imagens, realizar deploy (rsync ou ftp) e realizar mais uma infinidade de tarefas.</p>
+</blockquote>
+
+<p>Para utilizar o Grunt, é necessário ter o Node.js na sua máquina.</p>
+
+<h3>
+<a name="instalando-o-nodejs" class="anchor" href="#instalando-o-nodejs"><span class="octicon octicon-link"></span></a>Instalando o Node.js</h3>
+
+<p>Para instalar o Node.js, siga os passos abaixo:</p>
+
+<ol>
+<li>Clique neste <a href="http://nodejs.org/">link</a>.</li>
+<li>Faça o <em>download</em> do Node.</li>
+<li>Execute a instalação.</li>
+</ol><blockquote>
+<p>Caso precise de mais informações, <a href="https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager">confira este link</a></p>
+</blockquote>
+
+<h3>
+<a name="instalando-o-grunt" class="anchor" href="#instalando-o-grunt"><span class="octicon octicon-link"></span></a>Instalando o Grunt</h3>
+
+<p>Caso já tenha instalado o Grunt, remova a versão anterior antes de mais nada:</p>
+
+<div class="highlight"><pre><span class="nv">$ </span>npm uninstall -g grunt
+</pre></div>
+
+<p>A seguir, será necessário instalar globalmente o <strong>Grunt CLI</strong>. Provavelmente, você precise utilizar <code>sudo</code> (para OSX, ***nix, BSD, etc) ou rodar o <em>shell</em> como administrador (Windows).</p>
+
+<div class="highlight"><pre><span class="nv">$ </span>npm install -g grunt-cli
+</pre></div>
+
+<p>Pronto! Com o ambiente preparado, vamos escolher o boilerplate para iniciar o desenvolvimento do projeto.</p>
+
+<blockquote>
+<p>Se precisar de ajuda, execute <code>grunt --help</code>.</p>
+</blockquote>
+
+<h2>
+<a name="boilerplates" class="anchor" href="#boilerplates"><span class="octicon octicon-link"></span></a>Boilerplates</h2>
+
+<h3>
+<a name="escolhendo-um-boilerplate" class="anchor" href="#escolhendo-um-boilerplate"><span class="octicon octicon-link"></span></a>Escolhendo um Boilerplate</h3>
+
+<p><strong>Passo 1:</strong> faça o clone deste repositório</p>
+
+<div class="highlight"><pre><span class="nv">$ </span>git clone https://github.com/vitorbritto/grunt-boilerplates.git
+</pre></div>
+
+<p><strong>Passo 2:</strong> Copie e cole a pasta com o boilerplate desejado para o seu ambiente de trabalho</p>
+
+<p><strong>Passo 3:</strong> Instale as dependências no boilerplate escolhido</p>
+
+<div class="highlight"><pre><span class="nv">$ </span>sudo npm install
+</pre></div>
+
+<blockquote>
+<p><strong>Importante:</strong> o comando acima deve ser executado na pasta raiz do seu projeto.</p>
+</blockquote>
+
+<p><strong>Passo 4:</strong> Modifique as informações do seu projeto no arquivo <code>package.json</code>.</p>
+
+<h3>
+<a name="boilerplates-dispon%C3%ADveis" class="anchor" href="#boilerplates-dispon%C3%ADveis"><span class="octicon octicon-link"></span></a>Boilerplates Disponíveis</h3>
+
+<ul>
+<li><a href="grunt-boilerplate-sass">Grunt Boilerplate Sass</a></li>
+<li><a href="grunt-boilerplate-less">Grunt Boilerplate LESS</a></li>
+</ul><h2>
+<a name="refer%C3%AAncias" class="anchor" href="#refer%C3%AAncias"><span class="octicon octicon-link"></span></a>Referências</h2>
+
+<ul>
+<li><a href="https://github.com/vagnervjs/grunt-boilerplate">https://github.com/vagnervjs/grunt-boilerplate</a></li>
+<li><a href="https://github.com/Integralist/Grunt-Boilerplate">https://github.com/Integralist/Grunt-Boilerplate</a></li>
+<li><a href="https://github.com/elemental-shift/grunt-boilerplate">https://github.com/elemental-shift/grunt-boilerplate</a></li>
+</ul><h2>
+<a name="contribua" class="anchor" href="#contribua"><span class="octicon octicon-link"></span></a>Contribua</h2>
+
+<p>Caso este repositório tenha sido útil, fique a vontade para <a href="">contribuir</a> ou deixar uma <a href="">sugestão</a>.</p>
+      </section>
+
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>
