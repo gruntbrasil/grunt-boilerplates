@@ -1,6 +1,6 @@
 # Grunt Boilerplates
 
-O **Grunt Boilerplates** foi criado para oferecer aos desenvolvedores uma forma prática para inciar um projeto com o Grunt.
+O **Grunt Boilerplates** foi criado para oferecer aos desenvolvedores uma forma prática para iniciar um projeto com o Grunt.
 
 
 ## Iniciando o seu projeto
