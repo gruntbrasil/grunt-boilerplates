@@ -86,7 +86,10 @@ module.exports = function(grunt) {
                 options: {
                     force: true,
                     config: "config.rb",
-                    banner: "<%= banner %>"
+                    sassDir: "<%= dirs.sass %>",
+                    cssDir: "<%= dirs.css %>",
+                    banner: "<%= banner %>",
+                    specify: "<%= dirs.sass %>/*.scss"
                 }
             }
         },
