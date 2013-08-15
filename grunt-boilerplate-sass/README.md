@@ -14,7 +14,7 @@ Com as dependências do boilerplate instaladas e as informaçòes do seu `packag
 | grunt-contrib-jshint | Valida seus Scripts (linting) | [https://npmjs.org/package/grunt-contrib-jshint](https://npmjs.org/package/grunt-contrib-jshint) |
 | grunt-contrib-imagemin | Otimiza as suas imagens | [https://npmjs.org/package/grunt-contrib-imagemin](https://npmjs.org/package/grunt-contrib-imagemin) |
 | matchdep | Filtrar dependências pelo nome | [https://npmjs.org/package/matchdep](https://npmjs.org/package/matchdep) |
-| grunt-ftp-deploy | Realiza deploy via FTP | [https://npmjs.org/package/grunt-deploy](https://npmjs.org/package/grunt-deploy) |
+| grunt-ftp-deploy | Realiza deploy via FTP | [https://npmjs.org/package/grunt-ftp-deploy](https://npmjs.org/package/grunt-ftp-deploy) |
 | grunt-notify | Exibe notificações das tarefas | [https://npmjs.org/package/grunt-notify](https://npmjs.org/package/grunt-notify) |
 
 
