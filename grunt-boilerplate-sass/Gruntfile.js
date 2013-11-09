@@ -171,14 +171,23 @@ module.exports = function(grunt) {
 
     // Registrando as tarefas
     // --------------------------
+    
+    // Tarefa padrão
+    grunt.registerTask( "default", [ "jshint", "compass", "uglify" ] );
 
-    // Observar mudanças, concatenar, minificar e validar arquivos
-    grunt.registerTask( "w", [ "watch" ]);
+    // Observar mudanças dos arquivos
+    grunt.registerTask( "watch", [ "watch" ]);
 
     // Optimizar imagens
-    grunt.registerTask( "o", [ "imagemin", "notify:image" ]);
+    grunt.registerTask( "optimize", [ "imagemin", "notify:image" ] );
 
     // Deploy via FTP
-    grunt.registerTask( "d", [ 'ftp-deploy' ] );
+    grunt.registerTask( "deploy", [ "ftp-deploy" ] );
+    
+    
+    // Aliases para as tarefas
+    grunt.registerTask( "w", [ "watch" ] );
+    grunt.registerTask( "o", [ "optimize" ] );
+    grunt.registerTask( "d", [ "deploy" ] );
 
 };
