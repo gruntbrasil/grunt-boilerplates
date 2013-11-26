@@ -176,7 +176,7 @@ module.exports = function(grunt) {
     grunt.registerTask( "default", [ "jshint", "compass", "uglify" ] );
 
     // Observar mudanças dos arquivos
-    grunt.registerTask( "watch", [ "watch" ]);
+    grunt.registerTask( "watch-files", [ "watch" ]);
 
     // Optimizar imagens
     grunt.registerTask( "optimize", [ "imagemin", "notify:image" ] );
