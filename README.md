@@ -48,7 +48,7 @@ Pronto! Com o ambiente preparado, vamos escolher o boilerplate para iniciar o de
 **Passo 1:** faça o clone deste repositório
 
 ```bash
-$ git clone https://github.com/vitorbritto/grunt-boilerplates.git
+$ git clone https://github.com/gruntbrasil/grunt-boilerplates.git
 ```
 
 **Passo 2:** Copie e cole a pasta com o boilerplate desejado para o seu ambiente de trabalho
